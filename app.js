@@ -87,5 +87,5 @@ app.use('/birds', birds);
 
 
 app.listen(3000, function(){
-    console.log('Example ap listening on prot 3000!')
+    console.log('Listening on prot 3000!')
 });

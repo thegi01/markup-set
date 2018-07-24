@@ -1,4 +1,67 @@
-body{
-    background-color: black;
-    color: white;
+/* layout */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #666;
+}
+
+.wrap {
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 8px 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .actions {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.header .actions button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.container {
+  min-height: 100%;
+  box-sizing: border-box;
+  margin-bottom: -30px;
+  padding: 65px 15px 30px;
+}
+
+.footer {
+  height: 30px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+}
+
+/* main */
+.main .todolist-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.main .todolist-card .div-header {
+  margin-bottom: 8px;
+}
+
+.main .todolist-card .div-header .__title {
+  font-size: 16px;
 }

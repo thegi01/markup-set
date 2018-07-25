@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>To Do List</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <% include ./partials/head %>
 </head>
 <body>
     <div class="wrap" data-page="main">
 
-        <header class="header">
-            <h1 class="__title">h</h1>
-            <nav class="actions">
-                <button type="button">추가</button>
-                <button type="button">편집</button>
-            </nav>
-        </header>
+        <% include ./partials/header %>
 
         <div class="container">
             <main class="main">
@@ -46,15 +36,54 @@
                         </li>
                     </ul>
                 </section>
+                <section class="todolist-card">
+                    <header class="div-header">
+                        <h3 class="__title">7월 28일</h3>
+                    </header>
+                    <ul class="div-lst">
+                        <li class="lst-item">
+                            item 1
+                        </li>
+                        <li class="lst-item">
+                            item 2
+                        </li>
+                        <li class="lst-item">
+                            item 3
+                        </li>
+                        <li class="lst-item">
+                            item 4
+                        </li>
+                        <li class="lst-item">
+                            item 5
+                        </li>
+                    </ul>
+                </section>
+                <section class="todolist-card">
+                    <header class="div-header">
+                        <h3 class="__title">7월 29일</h3>
+                    </header>
+                    <ul class="div-lst">
+                        <li class="lst-item">
+                            item 1
+                        </li>
+                        <li class="lst-item">
+                            item 2
+                        </li>
+                        <li class="lst-item">
+                            item 3
+                        </li>
+                        <li class="lst-item">
+                            item 4
+                        </li>
+                        <li class="lst-item">
+                            item 5
+                        </li>
+                    </ul>
+                </section>
             </main>
         </div>
 
-        <footer class="footer">
-            <span>footer</span>
-        </footer>
-
-        
-        
+        <% include ./partials/footer %>
 
     </div>
 </body>

@@ -4,3 +4,4 @@
 
 # 참조 
 - http://expressjs.com/ko/
+- https://scotch.io/tutorials/use-ejs-to-template-your-node-application
